@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
         - name: todoapp
-          image: rahulgoyal436/todoapp
+          image: local-registry:5002/todoapp
           ports:
             - containerPort: 3000
